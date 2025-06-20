@@ -1,4 +1,6 @@
-const user = require('./user');
+const user = require("./user");
+const author = require("./authorRoute");
 
-module.exports = [
-    user]
+
+
+module.exports = [user, author];
